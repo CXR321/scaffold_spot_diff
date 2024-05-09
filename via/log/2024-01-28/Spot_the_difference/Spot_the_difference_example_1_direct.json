@@ -1,0 +1,31 @@
+{
+  "exp": "Spot_the_difference/Spot_the_difference_example_1_direct",
+  "image_paths": [
+    "CrazyGames-SpottingDifferences/50.png"
+  ],
+  "history": null,
+  "question": "Spot ten differences of the images and give mathematic coordinate of every difference to make I can locate on the image by my program. The coordinate can be that the left edge of the left image is x=0, the right edge of the right image is x=1904 (based on the resolution of the image), and the top and bottom edges of the images are y=0 and y=594. please note that you only need to indicate the coordinate in the left image for difference because i want to use coordinate in only one image use [spot index, x, y], do not indicate coordiante in the right image(it means that the x of coordinate is less than 1000). Let's think step by step. I am going to tip $100 for a good solution",
+  "model": "gpt-4-vision-preview",
+  "temperature": 0,
+  "response": {
+    "id": "chatcmpl-8m10EybpVgJPBsMx66ZErojLVHGjr",
+    "object": "chat.completion",
+    "created": 1706454290,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+      "prompt_tokens": 1610,
+      "completion_tokens": 384,
+      "total_tokens": 1994
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Certainly! I will identify ten differences between the two images and provide you with the coordinates for each difference on the left image. Please note that the coordinates are approximate and based on the resolution and dimensions you provided.\n\n1. [1, 150, 100] - The top left window of the building in the background is missing a window pane in the left image.\n2. [2, 250, 180] - The second palm tree from the left has one less frond on the left image.\n3. [3, 320, 470] - The shadow under the red bus on the left side is different; it's missing a dark spot in the left image.\n4. [4, 400, 300] - The window on the building to the right of the red bus has a different number of panes; the left image has one less vertical pane.\n5. [5, 500, 550] - The white marking on the road near the bottom of the image is shorter in the left image.\n6. [6, 600, 50] - The cloud in the sky above the red car is missing a small part on its right side in the left image.\n7. [7, 700, 450] - The rearview mirror on the red car is missing in the left image.\n8. [8, 800, 300] - The building in the far background, just above the red car's roof, has one less horizontal line on the left image.\n9. [9, 850, 200] - The antenna on the roof of the building to the right is shorter in the left image.\n10. [10, 950, 400] - The side mirror on the silver car in the center of the image is missing in the left image.\n\nPlease use these coordinates to locate the differences in your program."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  }
+}

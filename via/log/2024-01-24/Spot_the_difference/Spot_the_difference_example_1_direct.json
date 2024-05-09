@@ -1,0 +1,31 @@
+{
+  "exp": "Spot_the_difference/Spot_the_difference_example_1_direct",
+  "image_paths": [
+    "CrazyGames-SpottingDifferences/1.png"
+  ],
+  "history": null,
+  "question": "Spot ten differences of the images and give mathematic coordinate of every difference to make i can locate on the image by my program. The coordinate can be that the left edge of the left image is x=0, the right edge of the right image is x=1904 (based on the resolution of the image), and the top and bottom edges of the images are y=0 and y=594. please note that you only need to indicate the coordinate in the left image for difference because i want to use coordinate in only one image use [spot index, x, y].",
+  "model": "gpt-4-vision-preview",
+  "temperature": 0,
+  "response": {
+    "id": "chatcmpl-8kRmZSZ6PmQlDxJdOTFJ4ScRoq0Sx",
+    "object": "chat.completion",
+    "created": 1706080575,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+      "prompt_tokens": 1568,
+      "completion_tokens": 313,
+      "total_tokens": 1881
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "To assist your program in locating the differences between the two images, I will provide the coordinates based on the left image. Here are the differences I've spotted, along with their approximate coordinates:\n\n1. [1, 300, 100] - The bird flying in the sky is missing in the right image.\n2. [2, 880, 150] - A cloud in the sky has a different shape.\n3. [3, 1520, 200] - The tail of the bird flying in the sky is missing in the right image.\n4. [4, 1720, 250] - A small bush on the horizon line is missing in the right image.\n5. [5, 250, 450] - The shadow under the elephant is different.\n6. [6, 950, 530] - A tuft of grass near the elephant's front foot is missing in the right image.\n7. [7, 400, 370] - A branch on the tree is missing in the right image.\n8. [8, 1600, 370] - A branch on the tree is missing in the right image.\n9. [9, 120, 520] - A small rock on the ground is missing in the right image.\n10. [10, 1800, 520] - A small rock on the ground is missing in the right image.\n\nPlease note that the coordinates provided are approximate and may require slight adjustments to match the exact positions in your program."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  }
+}

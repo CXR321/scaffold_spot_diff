@@ -1,0 +1,4 @@
+success test num: 47
+llm refuse answer num: 1
+all hit circles num: 74
+all accuracy: 0.1574468085106383

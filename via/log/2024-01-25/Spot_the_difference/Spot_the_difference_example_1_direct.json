@@ -1,0 +1,31 @@
+{
+  "exp": "Spot_the_difference/Spot_the_difference_example_1_direct",
+  "image_paths": [
+    "CrazyGames-SpottingDifferences/50.png"
+  ],
+  "history": null,
+  "question": "Spot ten differences of the images and give mathematic coordinate of every difference to make I can locate on the image by my program. The coordinate can be that the left edge of the left image is x=0, the right edge of the right image is x=1904 (based on the resolution of the image), and the top and bottom edges of the images are y=0 and y=594. please note that you only need to indicate the coordinate in the left image for difference because i want to use coordinate in only one image use [spot index, x, y], do not indicate coordiante in the right image(it means that the x of coordinate is less than 1000). I am going to tip $100 for a good solution",
+  "model": "gpt-4-vision-preview",
+  "temperature": 0,
+  "response": {
+    "id": "chatcmpl-8ku0T3QHth3aYaCDKs4QfAzqdNHVo",
+    "object": "chat.completion",
+    "created": 1706189069,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+      "prompt_tokens": 1603,
+      "completion_tokens": 307,
+      "total_tokens": 1910
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Sure, I will list the differences along with their approximate coordinates based on the left image. Please note that the coordinates are approximate and may require slight adjustments for precise programmatic detection.\n\n1. [1, 150, 150] - The top left window of the building is missing a window pane.\n2. [2, 250, 450] - The red vehicle on the left side of the road has a missing side mirror.\n3. [3, 500, 300] - The white car in the center of the image has a different number of spokes on the front wheel.\n4. [4, 600, 100] - The cloud in the sky above the white car is shaped differently.\n5. [5, 700, 550] - The shadow under the white car is missing.\n6. [6, 800, 200] - The palm tree on the right side of the road has one less frond.\n7. [7, 300, 550] - The manhole cover in the street near the bottom of the image is missing.\n8. [8, 100, 300] - The antenna on the roof of the red bus is missing.\n9. [9, 850, 50] - The second palm tree from the right has an extra frond.\n10. [10, 950, 500] - The rear tire of the white car has a different tread pattern.\n\nPlease adjust the coordinates as needed for your program."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  }
+}
